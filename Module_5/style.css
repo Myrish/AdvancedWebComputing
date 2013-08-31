@@ -1,0 +1,166 @@
+#main{
+	font-family: courier;
+	text-align: center;
+}
+.submain{
+    font-family: courier;
+	text-align: center;
+}
+
+#todo-list {
+    list-style-type: none;
+	
+        
+}
+
+#header1{
+    font-family: courier;
+    font-weight: bold;
+    font-size: 70px;
+    color: #663300  ;
+    text-align: center;
+    margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.todo-item {
+    padding-left: 20px;
+    color: #663300;
+    padding: 2px;
+    font-size: 20px;
+    font-family: courier;
+    margin-left: 30px;
+    margin-top: 1px;
+    
+}
+
+#txtbox{
+    float: center;
+    border-spacing: 100px;
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+    margin-bottom: 10px;
+	margin-left: 120px;
+	color: #CC6600;
+	font-weight: bold;
+	font-family: courier;
+	font-size: 20px;
+	padding: 5px;
+	
+}
+
+#body{
+    border: solid 20px #CC6600;
+    background-color: #FFFF99;
+    margin: 50px 50px 50px 50px;
+	padding: 20px;
+
+}
+
+#subody{
+	margin-top: 7px;
+	margin-left: 60px;
+	float: center;
+}
+
+
+.first{
+    background-color: #FF9933;
+    width:500px;
+    height: auto;
+    border-radius: 10px;
+    margin: auto;
+	padding: 10px;
+}
+
+#pending, #totalDone, #totalTask, #slash{
+	color: #663300;
+	font-size: 30px;
+	font-family: courier;
+	font-weight:bold;
+}
+
+.second, .third{
+	text-align: center;
+	margin-bottom: 2px;
+	font-size: 20px;
+	color: #663300;
+	font-family: courier;
+	font-weight:bold;
+}
+
+#toggle {
+    color:#663300 ;
+	font-family: courier;
+	font-weight: bold;
+	padding: 5px;
+	border-radius: 7px;
+	background-color: #FFFF99;
+	border: 5px solid #CC6600;
+	margin: auto;
+
+}
+#remove {
+    color: #663300;
+	font-family: courier;
+	font-weight: bold;
+	padding: 5px;
+	border-radius: 7px;
+	background-color: #FFFF99;
+	border: 5px solid #CC6600;
+	margin-left: 8px;
+
+}
+
+.allChecked{
+	text-decoration:line-through;
+	color: white;
+}
+
+@media all and (max-width: 860) {
+
+#subody{
+	margin-top: 7px;
+	margin-left: 0%;
+	text-align: center;
+}
+
+.first{
+    width:70%;
+    height: auto;
+}
+
+#txtbox{
+    border-spacing: 100px;
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+	margin-left: 75px;
+    margin-bottom: 10px;
+}
+
+#toggle {
+	margin-left: 0%;
+	padding: 5px;
+	border-radius: 7px;
+	display: fixed;
+	font-size:12px;
+
+}
+#remove {
+	padding: 5px;
+	border-radius: 7px;
+	display: fixed;
+	font-size:12px;
+}
+#header1{
+    font-family: courier;
+    font-weight: bold;
+    font-size: 50px;
+    color: #663300  ;
+    text-align: center;
+    margin-top: 10px;
+}
+}
+
